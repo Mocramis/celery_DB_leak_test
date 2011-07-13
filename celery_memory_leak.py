@@ -20,4 +20,4 @@ while time() - start < 600: # we run for 10 minutes
     print (' %12i ' * len(vals)) % vals
     sys.stdout.flush()
   status = result.state
-  count += 2
+  count += 1
